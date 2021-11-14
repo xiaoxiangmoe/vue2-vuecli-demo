@@ -1,0 +1,31 @@
+{
+  "name": "vue2-vuecli-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-tsc --noEmit && vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.4.0",
+    "core-js": "^3.19.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-plugin-typescript": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/runtime-dom": "^3.2.22",
+    "prettier": "^2.4.1",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^3.0.2",
+    "typescript": "~4.5.1-rc",
+    "unplugin-vue2-script-setup": "^0.6.16",
+    "vue-template-babel-compiler": "^1.0.6-0",
+    "vue-template-compiler": "^2.6.14",
+    "vue-tsc": "^0.29.4"
+  }
+}
